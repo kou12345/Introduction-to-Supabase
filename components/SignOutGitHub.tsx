@@ -1,9 +1,9 @@
 import useAuth from "../hooks/useAuth";
 
 // サインアウトボタン
-const signOutGitHub = () => {
+const SignOutGitHub = () => {
   const { signOut } = useAuth();
   return <button onClick={signOut}>サインアウト</button>;
 };
 
-export default signOutGitHub;
+export default SignOutGitHub;
